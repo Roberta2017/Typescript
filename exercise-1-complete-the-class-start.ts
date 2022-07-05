@@ -30,7 +30,7 @@ class Currency {
     // Add a return type for this method
     // Hint: Look at the inferred return type.
 
-    public describe() {
+    public describe() : void {
         // Replace the `null` values below with the appropriate field values.
         // Hint: Access field values with: this.fieldName
 
@@ -38,7 +38,11 @@ class Currency {
         description += `has the code ${this.code} `;
         description += `and uses the symbol ${this.symbol}.`;
 
-        console.log(description);
+        return
+            console.log(description);
+        
+
+        
     }
 }
 

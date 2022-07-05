@@ -23,6 +23,7 @@ var Currency = /** @class */ (function () {
         var description = "The ".concat(this.name, " currency ");
         description += "has the code ".concat(this.code, " ");
         description += "and uses the symbol ".concat(this.symbol, ".");
+        return;
         console.log(description);
     };
     return Currency;
